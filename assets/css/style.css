@@ -213,5 +213,47 @@ body {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
-  }
-  
+     
+}
+
+@media screen and (max-width: 768px) {  
+    section, .header_main  {
+        width: 700px;
+        margin: auto;
+    }
+    .links {
+        font-size: 20px;
+    }
+    p {
+        font-size: 90%;
+    }
+
+    .img {
+        height: 300px;
+        width: 200px;
+    
+    }
+    .pImg {
+        height: 700px;
+        width: 700px;
+    }
+    /* I wanted to create rows and columns for the smaller screens, but could not figure out how to do this w/o messing up the laerger screens, or making a new html for the different sizes, which defeats the purpose of the query. Theres also no rhyme or reason to why I picked the sizes for the items, except they look okay in a resized screen*/
+    
+}
+
+@media screen and (max-width: 640px) {  
+    section, .header_main  {
+        width: 400px;
+        margin: auto;
+        text-align: center;
+    }
+    .links{
+        font-size: 16px;
+    }
+   .pImg {
+       width: 600px;
+       height: 600px
+       margin: auto;
+       /* this sort of works in the resize screen extension in chrome but doesn't work if I manually resize the window. */
+    }
+    
