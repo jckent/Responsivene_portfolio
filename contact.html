@@ -1,50 +1,57 @@
 <!DOCTYPE html>
-<html lang= en>
-
-    <title> Chase Kent's Portfolio</title>
-    
-    <head>
-      <h2 id= "myname">Chase Kent</h2>
-      <button id="about" type="submit" formaction="index.html">About</button>
-      <button id="portfolio" type="submit" formaction="index.html">Portfolio</button>
-      <button id="contact" type="submit" formaction="index.html">Contact</button>
-          
-      <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css" />
-
-          
-  </head>
-            
-
-    <div class="wrapper">
-
-    <h1>
-        Contact
-    </h1>
-    <div class="form">
-    <form>
-        <label for "name">Name</label>
-        <br>
-        <input type= "text" id= "name" placeholder= "Name" required>
-
-        <br><br>
-        <label for "email">Email</label>
-        <br>
-        <input type= "email" id= "email" placeholder= "Email" required>
-
-        <br><br>
-        <label for "message">Message</label>
-        <br>
-        <textarea name= "message" id= "message" cols= "30" rows= "15" placeholder= "your message here..." required></textarea>
-        <br><br>
-        <input type= "submit" value= "submit form">
-
-    </form>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="https://d17fnq9dkz9hgj.cloudfront.net/uploads/2012/11/152964589-welcome-home-new-cat-632x475.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="header_main">
+        <div class="header">
+            <h1>
+                Chase Kent
+            </h1>
+        </div>
+        <div class="links">
+            <a href="./index.html">About | </a>
+            <a href="./portfolio.html">Portfolio | </a>
+            <a href="./contact.html">Contact</a>
+        </div>
     </div>
-    </div>
+    <hr>
+    <section>
+        <div class="main">
+            <div class="main_header">
+                <h1>
+                    Contact
+                </h1>
+                
+                <hr>
+                
+                <div class="subhead">
+                    Name:
+                </div>
+                <textarea class="ta_name" name="Name" id="" placeholder="John Smith" ></textarea>
+                
+                <div class="subhead">
+                    Email:
+                </div>
+                <textarea class="ta_email" name="Email" id=""  placeholder="JohnSmith@email.com" ></textarea>
 
-    <footer >
-            Copyright (c) 
-        </footer>
-
+                <div class="subhead">
+                    Message
+                </div>
+                <textarea class="ta_message name="message" id="" placeholder="Your message here!"></textarea>
+            </div> 
+            <button class="submit">Submit</button>
+        </div>
+    </section>
+        <div class="footer">
+            <div class="f1"></div>
+            <div class="f2">Copywright &copy;</div>
+        </div>
+</body>
 </html>
